@@ -81,7 +81,7 @@ export default function HomePage() {
     });
 
     return filtered;
-  }, [mockGames, filters, searchQuery]);
+  }, [filters, searchQuery]);
 
   const handleGameClick = (game: Game) => {
     setSelectedGame(game);

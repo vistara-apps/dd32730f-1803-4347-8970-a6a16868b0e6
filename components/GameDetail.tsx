@@ -202,7 +202,7 @@ export function GameDetail({ game, ratings, onboardingSteps, onBack }: GameDetai
                   Congratulations!
                 </h3>
                 <p className="text-gray-300">
-                  You're all set up and ready to start playing {game.name}!
+                  You&apos;re all set up and ready to start playing {game.name}!
                 </p>
               </div>
             </div>
