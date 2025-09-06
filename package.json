@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:verify": "npm run lint && npm run build",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "@coinbase/onchainkit": "^0.38.19",
