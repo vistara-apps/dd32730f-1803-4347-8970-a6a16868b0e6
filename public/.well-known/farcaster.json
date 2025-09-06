@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "Web3 Game Hub",
+    "subtitle": "Built with Zara",
+    "description": "Web3 Game Hub is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://dd32730f180343478970a6a16868b0e6-sc2b.vercel.app",
+    "splashImageUrl": "https://dd32730f180343478970a6a16868b0e6-sc2b.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://dd32730f180343478970a6a16868b0e6-sc2b.vercel.app/image.png",
+    "tagline": "Web3 Game Hub",
+    "screenshotUrls": [
+      "https://dd32730f180343478970a6a16868b0e6-sc2b.vercel.app/screenshot.png",
+      "https://dd32730f180343478970a6a16868b0e6-sc2b.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://dd32730f180343478970a6a16868b0e6-sc2b.vercel.app/api/webhook"
+  }
+}
