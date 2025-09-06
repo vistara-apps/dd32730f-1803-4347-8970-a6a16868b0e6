@@ -2,7 +2,7 @@
 
 import { Game } from '@/lib/types';
 import { RatingStars } from './RatingStars';
-import { ExternalLink, Users, Zap, Calendar, DollarSign, Bookmark, BookmarkCheck, TrendingUp } from 'lucide-react';
+import { ExternalLink, Users, Zap, Calendar, DollarSign, Bookmark, BookMarked, TrendingUp } from 'lucide-react';
 import { useState } from 'react';
 
 interface GameCardProps {
@@ -87,7 +87,7 @@ export function GameCard({
               className="p-1 hover:bg-surface rounded transition-colors"
             >
               {isSaved ? (
-                <BookmarkCheck className="w-4 h-4 text-accent" />
+                <BookMarked className="w-4 h-4 text-accent" />
               ) : (
                 <Bookmark className="w-4 h-4 text-gray-400 hover:text-accent" />
               )}
@@ -140,7 +140,7 @@ export function GameCard({
               className="p-1 bg-black bg-opacity-50 hover:bg-opacity-70 rounded transition-colors"
             >
               {isSaved ? (
-                <BookmarkCheck className="w-4 h-4 text-accent" />
+                <BookMarked className="w-4 h-4 text-accent" />
               ) : (
                 <Bookmark className="w-4 h-4 text-white hover:text-accent" />
               )}

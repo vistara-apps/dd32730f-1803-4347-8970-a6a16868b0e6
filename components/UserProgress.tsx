@@ -1,7 +1,7 @@
 'use client';
 
 import { UserProgress as UserProgressType, Game } from '@/lib/types';
-import { Progress, Trophy, Clock, CheckCircle } from 'lucide-react';
+import { BarChart3, Trophy, Clock, CheckCircle } from 'lucide-react';
 
 interface UserProgressProps {
   progress: UserProgressType[];
@@ -34,7 +34,7 @@ export function UserProgress({ progress, games, onGameClick }: UserProgressProps
   if (progress.length === 0) {
     return (
       <div className="glass-card p-6 text-center">
-        <Progress className="w-12 h-12 text-gray-600 mx-auto mb-4" />
+        <BarChart3 className="w-12 h-12 text-gray-600 mx-auto mb-4" />
         <h3 className="text-lg font-semibold text-text mb-2">No Progress Yet</h3>
         <p className="text-gray-400">Start playing games to track your onboarding progress!</p>
       </div>

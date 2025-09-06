@@ -1,7 +1,7 @@
 'use client';
 
 import { GameGenre, Blockchain, FilterOptions } from '@/lib/types';
-import { ChevronDown, Filter, X, Star, TrendingUp, Calendar, AlphabeticalSort } from 'lucide-react';
+import { ChevronDown, Filter, X, Star, TrendingUp, Calendar, SortAsc } from 'lucide-react';
 import { useState } from 'react';
 
 interface GameFiltersProps {
@@ -18,7 +18,7 @@ const sortOptions = [
   { value: 'rating', label: 'Rating', icon: Star },
   { value: 'popularity', label: 'Popularity', icon: TrendingUp },
   { value: 'newest', label: 'Newest', icon: Calendar },
-  { value: 'alphabetical', label: 'A-Z', icon: AlphabeticalSort }
+  { value: 'alphabetical', label: 'A-Z', icon: SortAsc }
 ];
 
 export function GameFilters({ 
